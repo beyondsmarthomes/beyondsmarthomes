@@ -3,7 +3,7 @@ const prisma = new PrismaClient()
 export default async function ShopPage() {
   const products = await prisma.product.findMany({ orderBy: { createdAt: 'desc' } })
   return (
-    <section className="max-w-5xl">
+    <section className="max-w-5xl" dir="rtl">
       <h1 className="text-3xl font-bold mb-2">المتجر</h1>
       <p className="text-gray-600 mb-6">أجهزة وخدمات تركيب مختارة بعناية.</p>
       <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
