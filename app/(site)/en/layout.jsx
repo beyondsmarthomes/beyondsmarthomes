@@ -13,6 +13,7 @@ export default function LocaleLayout({ children }) {
             <a href="/en/about" className="underline">About</a>
             <a href="/en/projects" className="underline">Projects</a>
             <a href="/en/shop" className="underline">Shop</a>
+            <a href="/en/admin" className="px-3 py-1 rounded border">Admin</a>
             <a href="/ar" className="px-3 py-1 rounded border">عربي</a>
           </nav>
         </header>
