@@ -1,0 +1,36 @@
+{
+  "siteName": "Beyond Smart Homes",
+  "nav": { "about": "About", "projects": "Projects" },
+  "about": {
+    "title": "About Beyond Smart Homes",
+    "subtitle": "Private, fast, and reliable smart homes—end to end",
+    "body": [
+      "I handle everything from consultation and design to installation, tuning, and long-term care.",
+      "Your automations run locally, do not slow your Wi-Fi, and respond instantly.",
+      "Privacy and safety first. No DIY complexity—just a home that works."
+    ],
+    "team": {
+      "title": "Who I Am",
+      "name": "Hameed Hasawi",
+      "role": "Founder, Systems Integrator"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "intro": "A few finished homes and showpieces.",
+    "items": [
+      {
+        "slug": "seaside-villa",
+        "title": "Seaside Villa",
+        "summary": "Whole-home lighting, security, and climate. Offline-first with kiosk control.",
+        "images": ["/window.svg", "/file.svg", "/globe.svg", "/next.svg", "/vercel.svg"]
+      },
+      {
+        "slug": "desert-retreat",
+        "title": "Desert Retreat",
+        "summary": "Media, energy monitoring, and presence-aware comfort.",
+        "images": ["/globe.svg", "/file.svg", "/window.svg"]
+      }
+    ]
+  }
+}
